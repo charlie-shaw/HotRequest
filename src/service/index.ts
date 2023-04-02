@@ -2,7 +2,7 @@ import HotRequest from './request/'
 
 
 export const hotRequest = new HotRequest({
-    baseURL: "http://codercba.com:1888/airbnb/api",
+    baseURL: "url",
     timeout: 8000,
     interceptors:{
         requestFulfilled(config) { 
